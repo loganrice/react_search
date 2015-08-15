@@ -48,7 +48,7 @@ export default class App extends Component {
       <div>
         <h1> Items </h1>
         <input onChange={this.search.bind(this)}></input>
-
+        
         {this.state.items.map(function(item){ 
           return (
                 <Item data={item.ref} />

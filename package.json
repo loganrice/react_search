@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "lunr": "^0.5.12",
-    "react": "^0.13.0"
+    "react": "^0.13.0",
+    "react-search-input": "^0.2.8"
   }
 }
